@@ -1,0 +1,8 @@
+conda create -n GPUX python=3.10
+conda activate GPUX
+conda install -c conda-forge tensorflow-gpu=2.18
+conda install -c nvidia/label/cuda-11.8.0 -c conda-forge cuda-toolkit=11.8 cudnn=8.9 -y
+conda install numpy pandas matplotlib scikit-learn opencv
+
+python -m pip install tensorflow==2.10.0 --no-cache-dir
+
