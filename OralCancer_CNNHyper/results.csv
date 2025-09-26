@@ -1,0 +1,1 @@
+run_name,filters,dense_units,dropout_rate,lr,l2_lambda,test_acc,test_prec,test_rec,test_auc
